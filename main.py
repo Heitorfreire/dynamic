@@ -21,7 +21,7 @@ else:
 
 
 
-
+'''
 grafico = {
     '5':['3','7'],
     '3':['2','4'],
@@ -36,4 +36,5 @@ def dfs(visitado,grafico,no):
         print(no) # imprime o no atual
         visitado.add(no) # marca o nó atual como visitado
         for vizinho in grafico[no]:
-            dfs(visitado,grafico,vizinho)
+            dfs(visitado,grafico,vizinho)'''
+
